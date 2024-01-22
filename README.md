@@ -7,46 +7,53 @@
 > Also, determine the optimal value of lambda for ridge and lasso regression.
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Problem Statment
+* Reading and Understanding Data
+* Exploratory Data Analysis
+* Model Building
+* Regularisation Techniques
+* Interpretation
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Objective: Create a house price prediction model based on independent variables.
+- Purpose:
+    - Inform management about how prices relate to different factors.
+    - Guide strategy adjustments for higher returns.
+    - Understand pricing dynamics in new markets.
+- Benefits:
+    - Informed Decision Making
+    - Strategic Focus on High-Return Areas
+    - Insights into New Market Pricing Dynamics
+- Goal: Develop a reliable model to empower management in making informed decisions and optimizing strategies in the real estate market.
+- Additionally, a data dictionary has been provided, offering descriptions and explanations for the attributes or variables present in the dataset.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The R2 score on the train data is almost the same for linear regression, ridge regression, and laso regression models.
+- However, regularisation techniques improved the test data R2 score slightly.
+
+  
+- The top 5 predictor variables are
+    - __GrLivArea__: Above-grade (ground) living area square feet
+    - __house_age__: The age of the house is basically a difference between the year built and the year sold.
+    - __Total BsmtSF__: Total square feet of basement area
+    - __Neighborhood_Crawfor__: Crawford
+    - __Neighborhood_NridgHt__: Northridge Heights
+- Expect the remaining 4 predictors to have positive coefficients, which indicate that an increase in these values will increase the price of the house.
+- __House_age__ has a negative coefficient, which means an increase in age will reduce the price of the house.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+As part of IIT Bangalore's AI/ML Executive Programme, I worked on this project.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by  https://github.com/Sai-Krishna-Rali - feel free to contact me!
 
 
 <!-- Optional -->
